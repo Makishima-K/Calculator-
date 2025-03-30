@@ -437,8 +437,8 @@ def is_valid_expression(expr):
         return False
     if '*+' in expr:
         return False
-    if '*-' in expr:
-        return False
+#    if '*-' in expr:
+#        return False
 
     return True
 
